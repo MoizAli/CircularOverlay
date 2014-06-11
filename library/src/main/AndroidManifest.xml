@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.circularoverlay.library">
+
+    <application android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+>
+        <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="19" />
+    </application>
+
+</manifest>

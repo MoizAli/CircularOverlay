@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="OverLayView">
+        <item name="titleTextAppearance">@style/TextAppearance.OverlayView.Title</item>
+        <item name="detailTextAppearance">@style/TextAppearance.OverlayView.Detail</item>
+        <item name="backgroundColor">#3333B5E5</item>
+        <item name="buttonText">@string/ok</item>
+    </style>
+
+
+    <style name="OverLayView.Light">
+        <item name="titleTextAppearance">@style/TextAppearance.OverlayView.Title</item>
+        <item name="detailTextAppearance">@style/TextAppearance.OverlayView.Detail.Light</item>
+        <item name="backgroundColor">#3333B5E5</item>
+        <item name="buttonText">@string/ok</item>
+    </style>
+
+    <style name="TextAppearance.OverlayView.Title" parent="android:style/TextAppearance.Large">
+        <item name="android:textSize">@dimen/overlay_text_title_size</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="TextAppearance.OverlayView.Detail" parent="android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/overlay_text_detail_size</item>
+    </style>
+
+    <style name="TextAppearance.OverlayView.Detail.Light">
+        <item name="android:textColor">#11bee3</item>
+        <item name="android:textSize">@dimen/overlay_text_detail_size</item>
+    </style>
+</resources>

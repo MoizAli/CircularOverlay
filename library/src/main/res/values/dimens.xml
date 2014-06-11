@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_margin">12dp</dimen>
+    <dimen name="text_padding">24dp</dimen>
+    <dimen name="action_bar_offset">66dp</dimen>
+    <dimen name="overlay_radius">94dp</dimen>
+    <dimen name="overlay_radius_inner">37dp</dimen>
+    <dimen name="overlay_radius_outer">40dp</dimen>
+    <dimen name="overlay_text_title_size">27sp</dimen>
+    <dimen name="overlay_text_detail_size">18sp</dimen>
+</resources>
