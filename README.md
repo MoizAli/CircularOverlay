@@ -6,6 +6,7 @@ The Feature Overlay Component is designed to highlight and showcase specific par
 The Cutout Feature can be used as follows:
 
 ViewTarget target = new ViewTarget("your view's id", this);
+        
         cutoutView = new CutoutView.Builder(this, true)
                 .setTarget(target)
                 .setContentTitle(R.string.cutout_main_title)
